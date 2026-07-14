@@ -47,3 +47,8 @@ body {
         height: 320px;
     }
 }
+
+.section-image {
+    max-height: 320px;
+    object-fit: cover;
+}
