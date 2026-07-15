@@ -65,6 +65,12 @@ h6 {
     padding: 90px 0;
 }
 
+#success-page {
+    font-size: 2rem;
+    margin-top: 100px;
+    color: var(--heading);
+}
+
 
 /* ===========================
    Navigation
