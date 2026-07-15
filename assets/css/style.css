@@ -95,3 +95,73 @@ body{
     color:var(--primary);
 }
 
+/* ===========================
+   Cards
+=========================== */
+
+.section-card{
+    background:#fff;
+    border-radius:25px;
+    padding:60px;
+    box-shadow:var(--shadow);
+}
+
+/* what to do next section */
+
+.what-image{
+    max-width:100%;
+    border-radius:20px;
+    border:none;
+}
+
+/* ===========================
+   Sign Cards
+=========================== */
+
+.sign-card{
+    border-radius:20px;
+    transition:.3s;
+}
+
+.sign-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 35px rgba(0,0,0,.12);
+}
+
+.sign-card i{
+    margin-bottom:20px;
+}
+
+/* ===========================
+   Steps
+=========================== */
+
+.step{
+    display:flex;
+    align-items:center;
+    margin-bottom:20px;
+    font-weight:600;
+}
+
+.step-number{
+
+    width:40px;
+    height:40px;
+
+    background:var(--secondary);
+
+    color:#fff;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin-right:15px;
+
+    font-weight:bold;
+
+}
