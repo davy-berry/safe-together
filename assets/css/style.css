@@ -165,3 +165,156 @@ body{
     font-weight:bold;
 
 }
+/* ===========================
+   Resources
+=========================== */
+
+.resource-card{
+
+    background:#fff;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    padding:35px 25px;
+
+    box-shadow:var(--shadow);
+
+    transition:.3s;
+
+}
+
+.resource-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.resource-card i{
+
+    font-size:3rem;
+
+    color:var(--primary);
+
+    margin-bottom:20px;
+
+}
+
+.resource-card a{
+
+    text-decoration:none;
+
+    font-weight:700;
+
+    color:var(--secondary);
+
+}
+
+/* ===========================
+   Testimonials
+=========================== */
+
+.testimonial{
+
+    background:#fff;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    box-shadow:var(--shadow);
+
+    height:100%;
+
+    position:relative;
+
+}
+
+.testimonial::before{
+
+    content:"“";
+
+    font-size:5rem;
+
+    color:#ece6ff;
+
+    position:absolute;
+
+    top:10px;
+
+    left:20px;
+
+}
+
+.testimonial p{
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+/* ===========================
+   Contact
+=========================== */
+
+.contact-section{
+
+    background:linear-gradient(180deg,#f8f7fc,#ffffff);
+
+}
+
+.contact-card{
+
+    background:var(--primary);
+
+    color:#fff;
+
+    border-radius:20px;
+
+    padding:40px;
+
+    height:100%;
+
+    box-shadow:var(--shadow);
+
+}
+
+.contact-card h3{
+
+    color:#fff;
+
+    margin-bottom:25px;
+
+}
+
+.contact-card p{
+
+    margin-bottom:18px;
+
+}
+
+.contact-card i{
+
+    margin-right:10px;
+
+}
+
+.form-control{
+
+    border-radius:12px;
+
+    padding:15px;
+
+    border:1px solid #ddd;
+
+}
+
+.form-control:focus{
+
+    box-shadow:none;
+
+    border-color:var(--primary);
+
+}
