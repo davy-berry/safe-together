@@ -360,7 +360,7 @@ header.hero {
 
 footer {
 
-    background: #2f2f2f;
+    background: var(--heading);
 
     color: #ddd;
 
