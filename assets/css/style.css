@@ -101,20 +101,23 @@ h6 {
 /* ===========================
    Hero
 =========================== */
-
-.hero {
-    /* background-position:center; */
-    /* background-image:url('../images/hero.png'); */
-    /* background-repeat:no-repeat; */
-    /* background-size:cover; */
-    /* padding-top:37px; */
-    color: var(--white);
+header.hero {
+    height: 80vh;
+    min-height: 600px;
+    position: absolute;
+    background-image: url('../images/hero.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
 }
+
 
 .hero p {
     max-width: 600px;
     text-align: center;
     margin: auto;
+    color: var(--white);
+
 }
 
 .hero img {
