@@ -1,8 +1,10 @@
 /* ======================================================
-   Safe Together - Custom Styles
+   Safe Together - CSS Stylesheet
    ====================================================== */
 
-/* Import Google Fonts */
+/* ===========================
+   Goolgle Fonts
+=========================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -19,7 +21,9 @@
     /* --shadow:0 10px 30px rgba(0,0,0,.08); */
 }
 
-/* ======== Global Styles ===========*/
+/* ===========================
+   Golbal Styles
+=========================== */
 
 html {
     scroll-behavior: smooth;
@@ -284,50 +288,6 @@ h6 {
 }
 
 /* ===========================
-   Testimonials
-=========================== */
-
-/*.testimonial{
-
-    background:#fff;
-
-    border-radius:20px;
-
-    padding:35px;
-
-    box-shadow:var(--shadow);
-
-    height:100%;
-
-    position:relative;
-
-}
-
-.testimonial::before{
-
-    content:"“";
-
-    font-size:5rem;
-
-    color:#ece6ff;
-
-    position:absolute;
-
-    top:10px;
-
-    left:20px;
-
-}
-
-.testimonial p{
-
-    position:relative;
-
-    z-index:2;
-
-}*/
-
-/* ===========================
    Contact
 =========================== */
 
@@ -414,7 +374,7 @@ img {
 }
 
 /* ===========================
-   Responsive
+   Media Queries
 =========================== */
 
 @media (max-width:991px) {
